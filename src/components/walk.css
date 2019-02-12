@@ -1,0 +1,32 @@
+@font-face {
+        font-family: Yellowtail;
+        src: url(https://use.typekit.net/sdg4osk.css);
+    }
+
+h1, h3 {
+  text-align: center;
+}
+
+.walktext1 {
+  font-family: Yellowtail;
+  color: white;
+  padding-top: 250px;
+  font-size: 40px;
+}
+
+.walktextp {
+  color: white;
+  font-size: 30px;
+  font-family: helvetica;
+  font-weight: 300;
+}
+
+.walk {
+  background-image: url('/assets/lonelymanddarkened.png');
+  height: 700px;
+  position: sticky;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

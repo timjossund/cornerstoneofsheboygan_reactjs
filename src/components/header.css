@@ -1,0 +1,14 @@
+.logo {
+  height: 75px;
+  margin: 0px 20px;
+}
+
+.header {
+  background-color: #202020;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}

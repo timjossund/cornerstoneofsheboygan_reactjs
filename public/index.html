@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.typekit.net/sdg4osk.css">
+    <title>Cornerstone Baptist Church | Sheboygan, WI</title>
+
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react/umd/react.production.js" crossorigin />
+  
+  <script
+    src="https://unpkg.com/react-dom/umd/react-dom.production.js"
+    crossorigin
+  />
+  
+  <script
+    src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+    crossorigin
+  />
+  
+  <script>var Alert = ReactBootstrap.Alert;</script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAZ6A3OG--dQhVKbT05Ly2TYwnpo4Ica3A",
+      authDomain: "cornerstone-bc.firebaseapp.com",
+      databaseURL: "https://cornerstone-bc.firebaseio.com",
+      projectId: "cornerstone-bc",
+      storageBucket: "cornerstone-bc.appspot.com",
+      messagingSenderId: "801951159867"
+    };
+    firebase.initializeApp(config);
+  </script>
+</body>
+
+</html>

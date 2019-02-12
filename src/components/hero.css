@@ -1,0 +1,53 @@
+h1, h3 {
+  text-align: center;
+}
+
+.herotext1 {
+  font-family: Yellowtail;
+  color: white;
+  padding-top: 275px;
+  font-size: 70px;
+}
+
+@font-face {
+        font-family: Yellowtail;
+        src: url(https://use.typekit.net/sdg4osk.css);
+    }
+
+.herotextp {
+  color: white;
+  font-size: 30px;
+  font-family: helvetica;
+  font-weight: 300;
+}
+
+
+.hero {
+  height: 750px;
+  z-index: -999;
+  background-image: url('/assets/cbcbgdarkened.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.heroPic {
+  height: 600px;
+  position: fixed;
+  z-index: -999;
+  background-position: center;
+  background-size: cover;
+}
+
+.down {
+  text-align: center;
+  margin-bottom: -10;
+  padding-top: 230px;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+#down {
+  font-size: 60px;
+  color: white;
+}

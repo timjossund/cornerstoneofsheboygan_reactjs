@@ -1,0 +1,39 @@
+.jesush3 {
+  font-size: 40px;
+  font-family: Yellowtail;
+  color: white;
+}
+
+@font-face {
+        font-family: Yellowtail;
+        src: url(https://use.typekit.net/sdg4osk.css);
+    }
+
+.jesusp {
+  font-family: helvetica;
+  font-weight: 200;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.salvation {
+  background-image: linear-gradient(#736357, #564937);
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.js-button {
+    background-color: rgba(0,0,0,0.00);
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.js-button:hover {
+    background-color: rgba(0,0,0,0.00);
+    box-shadow: 0px 6px 10px black;
+    transition: .2s;
+    border-color: white;
+}

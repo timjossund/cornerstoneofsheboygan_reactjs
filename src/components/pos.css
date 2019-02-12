@@ -1,0 +1,45 @@
+@font-face {
+        font-family: Yellowtail;
+        src: url(https://use.typekit.net/sdg4osk.css);
+    }
+
+.posTitle {
+    font-family: Yellowtail;
+    font-size: 40px;
+    color: #736357;
+    margin-bottom: 25px;
+
+}
+
+p {
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.posbutton {
+    background-color: rgba(0,0,0,0.00);
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0px;
+    margin: 10px auto;
+    animation-iteration-count: infinite;
+}
+
+.posbutton:hover {
+    background-color: rgba(0,0,0,0.00);
+    box-shadow: 0px 6px 10px grey;
+    transition: .2s;
+    border-color: black;
+    color: black;
+}
+
+.posMain {
+    padding-top: 125px;
+}
+
+.posbdiv {
+    display: flex;
+    justify-content: space-around;
+}

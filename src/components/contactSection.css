@@ -1,0 +1,115 @@
+.contactSection {
+    display: flex;
+    width: 100%;
+}
+
+.ContactInfo {
+    width: 50%;
+    padding: 20px;
+}
+
+.ContactForm {
+    width: 50%;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .contactSection {
+    display: grid;
+    width: 100%;
+}
+
+.ContactInfo {
+    width: 100%;
+    padding: 20px;
+}
+
+.ContactForm {
+    width: 100%;
+    padding: 20px;
+}
+}
+
+@font-face {
+        font-family: Yellowtail;
+        src: url(https://use.typekit.net/sdg4osk.css);
+    }
+
+.contactTitle {
+    font-family: Yellowtail;
+    font-size: 40px;
+    color: #736357;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.firstnamearea {
+    height: 50px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    border-width: 2px;
+    border-color: grey;
+    color: black;
+    border-radius: 0%;
+}
+
+.lastnamearea {
+    height: 50px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    border-width: 2px;
+    border-color: grey;
+    color: black;
+    border-radius: 0%;
+}
+
+.emailarea {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-width: 2px;
+    border-color: grey;
+    color: black;
+    border-radius: 0%;
+}
+
+.messagearea {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    border-width: 2px;
+    border-color: grey;
+    color: black;
+    border-radius: 0%;
+}
+
+.emailButtonDiv {
+    text-align: center;
+}
+
+.emailButton {
+    background-color: rgba(0,0,0,0.00);
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0px;
+    margin: 10px;
+    animation-iteration-count: infinite;
+}
+
+.emailButton:hover {
+    background-color: rgba(0,0,0,0.00);
+    box-shadow: 0px 6px 10px grey;
+    transition: .2s;
+    border-color: black;
+    color: black;
+}
+
+.c-p {
+    text-align: center;
+    margin: 1px;
+}
+
+.c-h3 {
+    margin: 10px;
+}

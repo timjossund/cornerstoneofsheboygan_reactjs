@@ -1,0 +1,53 @@
+.welcome {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+@font-face {
+        font-family: Yellowtail;
+        src: url(https://use.typekit.net/sdg4osk.css);
+    }
+
+.welcomeh3 {
+  font-family: Yellowtail;
+  font-size: 40px;
+  color: #736357;
+  margin-bottom: 0px;
+}
+
+.welcomep {
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: 200;
+}
+
+.welcomepic {
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+.welcomep2 {
+  font-size: 20px;
+  font-family: helvetica;
+  margin: auto;
+}
+
+.wbutton {
+    background-color: rgba(0,0,0,0.00);
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0px;
+    margin-top: 10px;
+    animation-iteration-count: infinite;
+}
+
+.wbutton:hover {
+    background-color: rgba(0,0,0,0.00);
+    box-shadow: 0px 6px 10px grey;
+    transition: .2s;
+    border-color: black;
+    color: black;
+  }
